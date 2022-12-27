@@ -1,1 +1,1 @@
-# -hexo-theme-wmterminal
+# hexo-theme-wmterminal
