@@ -1,0 +1,19 @@
+{
+  "name": "hexo-theme-wmterminal",
+  "version": "1.0.0",
+  "description": "wmtermintal with for hexo-theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/george012/hexo-theme-wmterminal.git"
+  },
+  "author": "WMYeah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/george012/hexo-theme-wmterminal/issues"
+  },
+  "homepage": "https://github.com/george012/hexo-theme-wmterminal#readme"
+}
