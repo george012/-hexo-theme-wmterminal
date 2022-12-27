@@ -25,24 +25,9 @@ jobs:
         cache: 'npm'
         registry-url: 'https://registry.npmjs.org'
 
-    # - run: npm ci
-    # - run: npm publish
+    - run: npm install
+    - run: npm publish
 
-    #   env:
-    #     NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        
-    - name: Install dependencies
-      run: npx ci
-    - name: Install semantic-release extra plugins
-      run: npm install --save-dev @semantic-release/changelog @semantic-release/git      
-    # - name: Lint
-    #   run: npm run lint-fix
-    - name: Test
-      run: npm run test:unit --if-present
-    - name: Build
-      run: npm run build      
-    - name: Release
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-      run: npx semantic-release
