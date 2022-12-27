@@ -1,6 +1,6 @@
 {
   "name": "hexo-theme-wmterminal",
-  "version": "1.0.5",
+  "version": "0.0.0",
   "description": "wmtermintal with for hexo-theme",
   "main": "package.json",
   "scripts": {
@@ -19,6 +19,10 @@
   },
   "bugs": {
     "url": "https://github.com/george012/hexo-theme-wmterminal/issues"
+  },
+  "dependencies": {
+    "hexo-renderer-stylus": "^2.1.0",
+    "hexo-renderer-pug": "^3.0.0"
   },
   "author": "WMYeah",
   "license": "MIT",
