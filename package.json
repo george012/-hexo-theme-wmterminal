@@ -1,6 +1,6 @@
 {
   "name": "hexo-theme-wmterminal",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "wmtermintal with for hexo-theme",
   "main": "package.json",
   "scripts": {
