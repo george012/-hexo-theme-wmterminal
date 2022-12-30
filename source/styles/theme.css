@@ -42,7 +42,7 @@ h1,h2,h3,h4,h5,h6 {
 
 /*标题栏*/
 .header-title {
-    max-width: 98%;
+    max-width: 99%;
     margin: 1em auto 0 auto;
     display: block;
     font-size: 14px;
@@ -57,7 +57,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .container {
     background: #233338;
-    max-width: 98%;
+    max-width: 99%;
     height: calc(100vh - 4em);
     overflow: auto;
     margin: 0 auto 1em auto;

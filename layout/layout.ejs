@@ -33,7 +33,9 @@
         <span class="header-light"></span>
         <span class="header-light"></span>
         <span class="header-light"></span>
-        <span><%- config.title %> <%- config.url.replace(/https?:\/\//, '')%><span>
+        <!-- <span><%- config.title %> <%- config.url.replace(/https?:\/\//, '')%><span> -->
+        <span><%- title || (page&&page.title) || __('common.home') %></span>
+
     </div>
     <div class="container">
         <ul class="nav">
@@ -56,7 +58,7 @@
             <% } %>
             <p class="footer-copyright">
                 <span>Powered by <a target="_blank" href="https://hexo.io">Hexo</a></span>
-                <span>Theme <a target="_blank" href="https://github.com/tinkink-co/hexo-theme-terminal">Terminal</a></span>
+                <span>Theme <a target="_blank" href="https://github.com/george012/hexo-theme-wmterminal">wmterminal</a></span>
             </p>
         </div>
     </div>
